@@ -1,0 +1,12 @@
+Test case for succesful delivery notification : 
+Scenerio : customer receives a notification message that their order has been delivered successfully 
+input : valid order number and delivery confirmation.
+expected output : customer receives a notification a notification message with the following information " your order number (order number) has been delivered successfully. Thank you for ordering with us."
+Test case for delayed delivery notification: 
+Scenerio : customer receives a notification message that their order will be delayed ( Only for 19th Apr ordered customer )
+Input : Verify email id and Verify date.
+Expected output : The customer receives a notification message with clear and detailed information about the delay, including the reason for delay, the expected new delivery date.
+Test case for a customer who ordered for Apr 26th, 2023 and should not receive a delayed message : 
+Scenerio : Customer orders a product with a delivert date of april 26th,2023 and should not receive a delay notification message.
+Input : Order details with delivery date of apr 26th,2023
+Expected Output : Customer should not receive any notification message regarding delay as their order is not delayed. instead customer should get a notification message that their order is ready to shipping.
